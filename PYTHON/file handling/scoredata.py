@@ -2,13 +2,15 @@ import os
 
 #decide what you want to do
 print("Do you want to read, edit or delete a score? ")
-choice = input("r / e / d")
+choice = input("r / e / d ")
 
+#Option for reading
 if choice == "r":
     username = input("Enter the username of the score you wish to view: ")
     myfile = open(username + ".txt","r")
     print(myfile.read())
     myfile.close()
+#Option for editing scores
 elif choice == "e":
     username = input("Enter the username of the socre you wish to edit: ")
     score = input("Enter the score you wish to add: ")
@@ -16,6 +18,7 @@ elif choice == "e":
     myfile.write("score = " + score)
     myfile.close()
     print("Score successfully edited!")
+#Option for deleting scores
 elif choice == "d":
     username = input("Enter the username of the score you wish to delete: ")
     if os.path.exists(username + ".txt"):

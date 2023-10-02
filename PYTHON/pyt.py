@@ -1,4 +1,8 @@
-i = 0
-password = "dsafdfafd"
-password2 = password[:2]
-print(password2)
+password = " "
+count = 0 
+while (password != "changeme"): 
+ password = input("Enter your password: ")
+ count = count + 1 
+print ("Accepted")
+print("You took " + str(count) + " attempts!")  
+
