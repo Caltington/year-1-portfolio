@@ -2,7 +2,7 @@ import os
 
 #decide what you want to do
 print("Do you want to read, edit or delete a score? ")
-choice = input("r, e, d")
+choice = input("r / e / d")
 
 if choice == "r":
     username = input("Enter the username of the score you wish to view: ")

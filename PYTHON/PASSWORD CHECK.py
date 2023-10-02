@@ -39,6 +39,7 @@ while i < length:
         print("i hate this program")
     i = i + 1
 
+#Checks how many different types of character was used and collects it together
 if lowercase == True:
     total = total + 1
 if uppercase == True:
@@ -48,6 +49,7 @@ if symbol == True:
 if number == True:
     total = total + 1
 
+#Displays the strength
 if total == 1:
     print("Password is WEAK")
 elif total == 2:
