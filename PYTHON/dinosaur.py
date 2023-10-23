@@ -25,9 +25,20 @@ def Question2B():
         print("\nDoes it fly?")
         choice = input("1. Yes\n2. No\n")
         if choice == "1":
-            Answer("Pterodactyl")
+            Question3A()
         elif choice == "2":
             Question3B()
+        else:
+            print("Please use 1 or 2!")
+
+def Question3A():
+    while True:
+        print("\nIs the tail short?")
+        choice = input("1. Yes\n2. No\n")
+        if choice == "1":
+            Answer("Pterodactyl")
+        elif choice == "2":
+            Answer("Rhamphorhynchoids")
         else:
             print("Please use 1 or 2!")
 
