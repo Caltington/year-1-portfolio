@@ -6,17 +6,17 @@ def add_grade():
     score = int(input("Enter the score of the student: "))
     grade = "N/A"
     while grade == "N/A":
-        if score > 80 and 100 > score:
+        if score > 80 and 101 > score:
             grade = "A*"
-        elif score > 70 and 80 > score:
+        elif score > 70 and 81 > score:
             grade = "A"
-        elif score > 60 and 70 > score:
+        elif score > 60 and 71 > score:
             grade = "B"
-        elif score > 50 and 60 > score:
+        elif score > 50 and 61 > score:
             grade = "C"
-        elif score > 40 and 50 > score:
+        elif score > 40 and 51 > score:
             grade = "D"
-        elif score > 0 and 40 > score:
+        elif score > 0 and 41 > score:
             grade = "Fail"
         else:
             print("Scores can only be between 0 and 100!")
