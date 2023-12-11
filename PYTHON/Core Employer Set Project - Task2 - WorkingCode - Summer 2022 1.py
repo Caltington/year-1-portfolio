@@ -1,3 +1,6 @@
+#Changes I need to make
+#Double check calculations make sense
+
 import pandas as pd
 
 
@@ -38,15 +41,18 @@ def new_property():
     while bedroom_check == False:
         try:
             bedrooms = int(input("Enter the number of bedrooms in the house: "))
-            bedroom_check = True
+            if bedrooms >= 1:
+                bedroom_check = True
         except:
             print("Invalid input! Please enter a number ")
     
     price_check = False
     while price_check == False:
         try:
-            price = int(input("Enter the price of the house: "))
-            price_check = True
+            price = float(input("Enter the price of the house\nPrice must be above 10000\n "))
+            if price >= 10000:
+                price = round(price, 2)
+                price_check = True
         except:
             print("Invalid input! Please enter a number ")
     newhouse = [region, propertytype, bedrooms, price]
@@ -124,14 +130,16 @@ def house_sale():
                 print('ERROR PLEASE ENTER A VALID PROPERTY')
 
         sub_total = houses[select-1][3]
-        print(sub_total)
         total_fees = 0
 
 
         if sub_total > 100000:
-            total_fees += 3000+(sub_total-100000) * 0.2
+            #needs readjusted
+            total_fees = 100000 * 0.3 + ((sub_total - 100000) *0.02)
+            total_fees = round(total_fees, 2)
         else:
-            total_fees += sub_total *0.3
+            total_fees = sub_total * 0.03
+            total_fees = round(total_fees, 2)
 
     
 
