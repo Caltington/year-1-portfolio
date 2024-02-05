@@ -19,7 +19,7 @@ def OrderMenu():
     global french
     global coffee
     global tea
-    print("\nMenu\n1. Fruit Smoothie - £3.00\n2. Muffin - £2.00\n3. French Toast - £5.00\n4. Coffee - £2.50\n5. Tea - £1.50\n")
+    print("\nMenu\n1. Fruit Smoothie - £3.00\n2. Muffin - £2.00\n3. French Toast - £5.00\n4. Coffee - £2.50\n5. Tea - £1.50\n6. Cancel order\n")
     food = input("Enter the number of your order: ")
     if food == "1":
         fruit = fruit + 1
@@ -31,6 +31,9 @@ def OrderMenu():
         coffee = coffee + 1
     elif food == "5":
         tea = tea + 1
+    elif food == "6":
+        print("Order cancelled!\n")
+        ResetNumbers()
     else:
         print("Invalid input")
         OrderMenu()
