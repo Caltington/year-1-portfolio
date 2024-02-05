@@ -2,6 +2,10 @@ import random
 
 def login():
     inputusername = input("Enter your username: ")
+    if inputusername == "admin":
+        print("Admin Bypass")
+        print("Welcome", inputusername + "!\n")
+        menu()
     inputpassword = input("Enter your password: ")
     username = "Leemaster67"
     password = "TheRealLeemaster67!"
