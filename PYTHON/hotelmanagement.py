@@ -24,13 +24,16 @@ def BookRoom():
     print("Added to database")
     #Get a billing csv and write it to it
     with open("Billing.csv", "a") as file:
-        total = days * 100
+        total = int(days) * 100
         if service == "normal":
-            pass
+            total = int(total) + 75
+            scost = 75
         else:
-            total = total + 150
+            total = int(total) + 150
+            scost = 150
         file.write(name + "," + str(total) + "\n")
     print("Added to database")
+    print("\n----------------------\nName: " + name + "\nRoom Cost: " + str(int(days) * 100) + "\nService Cost: " + str(scost) + "\nTotal Cost: " + str(total) + "\n----------------------\n")
     Start()
 
 def ViewRoom():
