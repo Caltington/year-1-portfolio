@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-04-08T11:27:15.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="u04HS7ia9ZEW5B8ZusyT" version="24.2.2" type="device">
+  <diagram name="Page-1" id="JE1NA4w-qQphIiyAlveG">
+    <mxGraphModel dx="300" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-1" target="IIQNWSuUNLM_sO9nS6Js-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-57" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-2" target="IIQNWSuUNLM_sO9nS6Js-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-2" value="OUTPUT&lt;div&gt;Enter dice type&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-4" target="IIQNWSuUNLM_sO9nS6Js-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-4" value="INPUT&lt;div&gt;= sides&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-8" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-11" value="No" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-6" target="IIQNWSuUNLM_sO9nS6Js-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-6" value="is sides 4?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="260" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-12" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-14" value="No" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-10" target="IIQNWSuUNLM_sO9nS6Js-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-10" value="is sides 6?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-15" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-13">
+          <mxGeometry x="0.0425" y="6" relative="1" as="geometry">
+            <mxPoint x="475" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-13" value="is sides 12?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="420" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-16" value="&lt;div&gt;answer =&lt;/div&gt;random.randint(&lt;div&gt;1,4)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-18" value="print(&quot;The dice&amp;nbsp;&lt;div&gt;rolled&quot;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;str(answer))&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-20" value="&lt;div&gt;answer =&lt;/div&gt;random.randint(&lt;div&gt;1,6)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-21" target="IIQNWSuUNLM_sO9nS6Js-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-21" value="print(&quot;The dice&amp;nbsp;&lt;div&gt;rolled&quot;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;str(answer))&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="IIQNWSuUNLM_sO9nS6Js-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-23" value="&lt;div&gt;answer =&lt;/div&gt;random.randint(&lt;div&gt;1,12)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-24" value="print(&quot;The dice&amp;nbsp;&lt;div&gt;rolled&quot;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;str(answer))&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-25" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-28" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="sourcePoint" />
+            <mxPoint x="470" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIQNWSuUNLM_sO9nS6Js-29" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="sourcePoint" />
+            <mxPoint x="200" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

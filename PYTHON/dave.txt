@@ -1,0 +1,4 @@
+
+Name: dave
+Strength: 11
+Skill: 13
